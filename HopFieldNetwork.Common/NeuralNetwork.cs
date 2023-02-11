@@ -52,16 +52,5 @@ namespace HopFieldNetwork.Common
                 Output[i] = Threshold(_neurons[i].Activation);
             }
         }
-        
-        public void AsyncUpdate(int[] pattern, int maxIterations)
-        {
-            if (maxIterations < 1)
-                return;
-
-            Activation(pattern);
-            maxIterations--;
-
-            AsyncUpdate(Output, maxIterations);
-        }
     }
 }
