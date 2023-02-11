@@ -327,7 +327,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 450);
+            this.ClientSize = new System.Drawing.Size(673, 426);
             this.Controls.Add(this.Calculate);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
@@ -360,7 +360,7 @@
             this.Controls.Add(this.Output);
             this.Controls.Add(this.InputVec);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Hopfield Network - Team Botters";
             this.ResumeLayout(false);
             this.PerformLayout();
 
