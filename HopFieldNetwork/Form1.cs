@@ -1,4 +1,5 @@
 using HopFieldNetwork.Common;
+using System.Diagnostics;
 
 namespace HopFieldNetwork
 {
@@ -31,11 +32,6 @@ namespace HopFieldNetwork
             });
 
             _neuralNetwork = new(_weights.Matrix);
-        }
-
-        protected override void OnActivated(EventArgs e)
-        {
-            base.OnActivated(e);
 
             _inputPixels.Add(button1);
             _inputPixels.Add(button2);
