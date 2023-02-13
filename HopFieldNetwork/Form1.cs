@@ -77,7 +77,7 @@ namespace HopFieldNetwork
 
         private void Calculate_Click(object sender, EventArgs e)
         {
-            _neuralNetwork.Activation(GetInput());
+            _neuralNetwork.AsyncUpdate(GetInput(), 6);
 
             for (int i = 0; i < _outputPixels.Count; i++)
             {
